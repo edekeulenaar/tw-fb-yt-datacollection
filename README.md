@@ -28,9 +28,6 @@ Edit get_youtube_data.py and set the channel(s) you want to include, and the dat
 
 First run:
 > python get_youtube_data.py
-OR
-> python3 get_youtube_data.py
-(whichever works).
 
 This will download the video IDs from the selected channels.
 
@@ -38,17 +35,11 @@ Edit get_youtube_comments.py and set the channel(s) you want to include as well 
 
 Then run:
 > python get_youtube_comments.py
-OR
-> python3 get_youtube_comments.py
-(whichever works).
 
 This will dump the comments to the 'comments' directory. Note that you may not have enough credits to download everything at once - if your rate limit is exceeded, wait a day and run the script again.
 
 Then run
 > python filter_youtube_data.py
-OR
-> python3 filter_youtube_data.py
-(whichever works).
 
 This will make a file called 'youtube_comments.csv', listing all of the comments.
 
@@ -60,9 +51,6 @@ Get API credentials and enter them into get_twitter.py.
 
 Then run
 > python get_twitter.py
-OR
-> python3 get_twitter.py
-(whichever works).
 
 This will dump a list of tweets into the directory called 'tweets', including the current date in the filename, one file per search term.
 You can run this multiple times to gather data over time - the final join will remove any duplicate tweets.
